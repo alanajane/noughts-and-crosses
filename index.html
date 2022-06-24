@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Noughts and Crosses</title>
+</head>
+<body>
+    <header>
+        <h1>Noughts and Crosses</h1>
+    </header>
+    <main>
+        <div class="side-panel-left">
+            <p>Player 1</p>
+            <p id="indicate-player-1-mark">X</p>
+        </div>
+        <div class="game-board">
+            <div class="square r0 c0 diag0" data-player1 ="0" data-player2 = "0">
+                <p></p>
+            </div>
+            <div class="square r1 c0" data-player1 ="0" data-player2 = "0">
+                <p></p>
+            </div>
+            <div class="square r2 c0 diag1" data-player1 ="0" data-player2 = "0">
+                <p></p>
+             </div>
+            <div class="square r0 c1" data-player1 ="0" data-player2 = "0">
+                <p></p>
+            </div>
+            <div class="square r1 c1 diag0 diag1" data-player1 ="0" data-player2 = "0">
+                <p></p>
+            </div>
+            <div class="square r2 c1" data-player1 ="0" data-player2 = "0">
+                <p></p>
+             </div>
+            <div class="square r0 c2 diag1" data-player1 ="0" data-player2 = "0">
+                <p></p>
+            </div>
+             <div class="square r1 c2" data-player1 ="0" data-player2 = "0">
+                <p></p>
+            </div>
+            <div class="square r2 c2 diag0" data-player1 ="0" data-player2 = "0">
+                <p></p>
+            </div>
+        </div>
+        <div class="side-panel-right">
+            <p>Player 2</p>
+            <p id="indicate-player-2-mark">O</p>
+        </div>
+    </main>
+    <footer>
+        <button id="reset-game-button">reset game</button>
+        <button id="emoji-button">😀 🔀</button>
+    </footer>
+    <script src="noughts-and-crosses.js"></script>
+</body>
+</html>
