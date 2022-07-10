@@ -1,13 +1,15 @@
 
 
-## [Noughts and Crosses Game](https://alanajane.github.io/noughts-and-crosses/)
+# Noughts and Crosses Game
 
+### Game Features:
 
-## This application uses:
+* My first project - a simple chalkboard themed noughts and crosses (tic-tac-toe) game
+* The fun bonus of an emoji shuffle mode 😀 🔀 where the player can change the default O and X to a random selection of emoji pairs 😇 😈
+
+### This application uses:
 * HTML
 * CSS
 * Javascript
 
-# Game Features:
-
-Emoji shuffle mode where a player can click a button and change the default X and O to a random pair of a selection of emojis.
+#### [Play the game here](https://alanajane.github.io/noughts-and-crosses/)
