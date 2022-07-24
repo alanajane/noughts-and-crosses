@@ -12,4 +12,4 @@
 * CSS
 * Javascript
 
-#### [Play the game here](https://alanajane.github.io/noughts-and-crosses/)
+#### [Play the game here](https://lani-c.github.io/noughts-and-crosses/)
